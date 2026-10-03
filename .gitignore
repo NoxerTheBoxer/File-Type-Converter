@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+
+# Build output (released as GitHub Releases, not committed)
+build/
+dist/
+*.spec
+
+# Partial files from interrupted conversions
+.*.part
+
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# Secrets
+.env
+.env.*
